@@ -28,7 +28,7 @@ def main():
   exit('[!] Threads must be a number')
 
  # assign variables
- engine = Bruter(args.username.title(), int(args.threads), args.wordlist)
+ engine = Bruter(args.urooj_khan99.title(), int(args.threads), args.wordlist)
  session = Session(args.username.title(), args.wordlist)
 
  if session.exists():
